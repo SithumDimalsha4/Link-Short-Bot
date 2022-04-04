@@ -6,7 +6,7 @@
 ## 🚀 Deploy on Heroku
 <p>Fork And Deploy Heroku</p>
 
-<p><a href="https://heroku.com/deploy"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku"/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://IamNimsara/Link-Short-Bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku"/></a></p>
 
 ## 🎯 Demo Bot
   [![AnyMediaBot](https://img.shields.io/badge/AnyMediaBot%20-Telegram-blue)](https://t.me/anyMediaBot)<br>
