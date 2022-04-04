@@ -41,7 +41,7 @@ IMG = "https://telegra.ph/file/6c7f2cbb5af2732b723d7.jpg"
 REPLY_MARKUP = InlineKeyboardMarkup(
     [
        [  
-           InlineKeyboardButton("☘️ Group ☘️", url="https://t.me/sinhalasubcartoon")
+           InlineKeyboardButton("☘️ Group ☘️", url="https://t.me/s")
        ],
     ]
 )
@@ -53,7 +53,6 @@ I am Link Short Bot 🔗
   🔗 Link Short
     /short [Link]
 
-🧑‍💻 Bot By : @sinhalasubcartoon
 """
 @AnyMediaBot.on_message(filters.command("start"))
 async def start(m, message):
@@ -85,7 +84,6 @@ async def shortlink(m, message):
 
 print("""
 Bot Alive!
-Join @sinhalasubcartoon
 """
 )
 AnyMediaBot.run()
