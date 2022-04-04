@@ -8,6 +8,11 @@
 
 <p><a href="https://heroku.com/deploy"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku"/></a></p>
 
+## 🎯 Demo Bot
+  [![AnyMediaBot](https://img.shields.io/badge/AnyMediaBot%20-Telegram-blue)](https://t.me/anyMediaBot)<br>
+  🤷‍♂️ Help<br>
+  🔗 Link Short - ```/short [Link]```
+
 
 ## 🎯 Credits and Other
 - [Me](https://github.com/IamNimsara)
