@@ -1,0 +1,36 @@
+{
+    "name": "Link-Short-Bot",
+    "description": "A bot can Short the Link",
+    "logo": "https://telegra.ph/file/6c7f2cbb5af2732b723d7.jpg",
+    "keywords": [
+        "Link short",
+        "Telegram Bot"
+    ],
+    "repository": "https://github.com/IamNimsara/Link-Short-Bot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
