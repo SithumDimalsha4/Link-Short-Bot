@@ -29,7 +29,7 @@ import requests
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from config import Config
 
-bot = Client(
+AnyMediaBot = Client(
    "Link Short Bot",
    api_id=Config.APP_ID,
    api_hash=Config.API_HASH,
@@ -55,11 +55,11 @@ I am Link Short Bot 🔗
 
 🧑‍💻 Bot By : @sinhalasubcartoon
 """
-@bot.on_message(filters.command("start"))
+@AnyMediaBot.on_message(filters.command("start"))
 async def start(m, message):
     await message.reply_text(START_TEXT, reply_markup=REPLY_MARKUP)
 
-@bot.on_message(filters.command("short"))
+@AnyMediaBot.on_message(filters.command("short"))
 async def shortlink(m, message):
     if len(message.command) < 2:
             return await message.reply_text("**USE :** /short link")
