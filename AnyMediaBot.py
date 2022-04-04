@@ -88,4 +88,4 @@ Bot Alive!
 Join @sinhalasubcartoon
 """
 )
-bot.run()
+AnyMediaBot.run()
