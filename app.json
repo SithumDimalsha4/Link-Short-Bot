@@ -6,7 +6,7 @@
         "Link short",
         "Telegram Bot"
     ],
-    "repository": "https://github.com/IamNimsara/Link-Short-Bot",
+    "repository": "https://github.com/Sithumdimalsha4/Link-Short-Bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
